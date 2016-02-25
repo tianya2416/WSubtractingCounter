@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A952DF71C7EDF2800E1C78B"
-               BuildableName = "WSubtractingCounter.app"
-               BlueprintName = "WSubtractingCounter"
-               ReferencedContainer = "container:WSubtractingCounter.xcodeproj">
+               BlueprintIdentifier = "6A952E581C7F3A0600E1C78B"
+               BuildableName = "WSubtractingCounterDemo.app"
+               BlueprintName = "WSubtractingCounterDemo"
+               ReferencedContainer = "container:WSubtractingCounterDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A952DF71C7EDF2800E1C78B"
-            BuildableName = "WSubtractingCounter.app"
-            BlueprintName = "WSubtractingCounter"
-            ReferencedContainer = "container:WSubtractingCounter.xcodeproj">
+            BlueprintIdentifier = "6A952E581C7F3A0600E1C78B"
+            BuildableName = "WSubtractingCounterDemo.app"
+            BlueprintName = "WSubtractingCounterDemo"
+            ReferencedContainer = "container:WSubtractingCounterDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A952DF71C7EDF2800E1C78B"
-            BuildableName = "WSubtractingCounter.app"
-            BlueprintName = "WSubtractingCounter"
-            ReferencedContainer = "container:WSubtractingCounter.xcodeproj">
+            BlueprintIdentifier = "6A952E581C7F3A0600E1C78B"
+            BuildableName = "WSubtractingCounterDemo.app"
+            BlueprintName = "WSubtractingCounterDemo"
+            ReferencedContainer = "container:WSubtractingCounterDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A952DF71C7EDF2800E1C78B"
-            BuildableName = "WSubtractingCounter.app"
-            BlueprintName = "WSubtractingCounter"
-            ReferencedContainer = "container:WSubtractingCounter.xcodeproj">
+            BlueprintIdentifier = "6A952E581C7F3A0600E1C78B"
+            BuildableName = "WSubtractingCounterDemo.app"
+            BlueprintName = "WSubtractingCounterDemo"
+            ReferencedContainer = "container:WSubtractingCounterDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

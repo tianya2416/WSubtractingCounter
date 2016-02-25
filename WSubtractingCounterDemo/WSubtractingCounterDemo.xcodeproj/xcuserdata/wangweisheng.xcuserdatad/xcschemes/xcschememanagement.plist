@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WSubtractingCounter.xcscheme</key>
+		<key>WSubtractingCounterDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6A952DF71C7EDF2800E1C78B</key>
+		<key>6A952E581C7F3A0600E1C78B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
