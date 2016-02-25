@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A6F8F331C7E8CDF009A6B9B"
-               BuildableName = "AppCount.app"
-               BlueprintName = "AppCount"
-               ReferencedContainer = "container:AppCount.xcodeproj">
+               BlueprintIdentifier = "6A952DF71C7EDF2800E1C78B"
+               BuildableName = "WSubtractingCounter.app"
+               BlueprintName = "WSubtractingCounter"
+               ReferencedContainer = "container:WSubtractingCounter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A6F8F4C1C7E8CDF009A6B9B"
-               BuildableName = "AppCountTests.xctest"
-               BlueprintName = "AppCountTests"
-               ReferencedContainer = "container:AppCount.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6A6F8F571C7E8CDF009A6B9B"
-               BuildableName = "AppCountUITests.xctest"
-               BlueprintName = "AppCountUITests"
-               ReferencedContainer = "container:AppCount.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A6F8F331C7E8CDF009A6B9B"
-            BuildableName = "AppCount.app"
-            BlueprintName = "AppCount"
-            ReferencedContainer = "container:AppCount.xcodeproj">
+            BlueprintIdentifier = "6A952DF71C7EDF2800E1C78B"
+            BuildableName = "WSubtractingCounter.app"
+            BlueprintName = "WSubtractingCounter"
+            ReferencedContainer = "container:WSubtractingCounter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A6F8F331C7E8CDF009A6B9B"
-            BuildableName = "AppCount.app"
-            BlueprintName = "AppCount"
-            ReferencedContainer = "container:AppCount.xcodeproj">
+            BlueprintIdentifier = "6A952DF71C7EDF2800E1C78B"
+            BuildableName = "WSubtractingCounter.app"
+            BlueprintName = "WSubtractingCounter"
+            ReferencedContainer = "container:WSubtractingCounter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6A6F8F331C7E8CDF009A6B9B"
-            BuildableName = "AppCount.app"
-            BlueprintName = "AppCount"
-            ReferencedContainer = "container:AppCount.xcodeproj">
+            BlueprintIdentifier = "6A952DF71C7EDF2800E1C78B"
+            BuildableName = "WSubtractingCounter.app"
+            BlueprintName = "WSubtractingCounter"
+            ReferencedContainer = "container:WSubtractingCounter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

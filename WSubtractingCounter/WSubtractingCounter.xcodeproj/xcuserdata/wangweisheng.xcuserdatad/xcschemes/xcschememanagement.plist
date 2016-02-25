@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AppCount.xcscheme</key>
+		<key>WSubtractingCounter.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6A6F8F331C7E8CDF009A6B9B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6A6F8F4C1C7E8CDF009A6B9B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6A6F8F571C7E8CDF009A6B9B</key>
+		<key>6A952DF71C7EDF2800E1C78B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
