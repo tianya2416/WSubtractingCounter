@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface AppCountTests : XCTestCase
+@interface WSubtractingCounter : XCTestCase
 
 @end
 
-@implementation AppCountTests
+@implementation WSubtractingCounter
 
 - (void)setUp {
     [super setUp];
