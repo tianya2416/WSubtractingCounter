@@ -28,12 +28,9 @@ Pod::Spec.new do |s|
   s.author       = { 'tianya2416' => "1203123826@qq.com" }
 
 
-  s.source       = { :git => 'https://github.com/tianya2416/WSubtractingCounter.git', :tag => '1.0.0' }
+  s.source       = { :git => 'https://github.com/tianya2416/WSubtractingCounter.git', :tag => s.version }
   s.platform     = :ios, '5.0'
- #s.source_files  = ''
-  s.source_files  = 'WSubtractingCounterDemo/WSubtractingCounterDemo/*.{h,m}'
- #s.source_files  = 'WSubtractingCounter/WSubtractingCounter/*.{h,m}'
- # s.public_header_files = 'WSubtractingCounter/*.{h}'
+  s.source_files  = 'WSubtractingCounterDemo/WSubtractingCounterDemo/WSubtractingCounter/*.{h,m}’  
   s.requires_arc = true
 
 end
