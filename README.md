@@ -7,3 +7,4 @@
 # WSKeyBoard
 # WSKeyBoard
 # WSCountKeyBoard
+# WSubtractingCounter
