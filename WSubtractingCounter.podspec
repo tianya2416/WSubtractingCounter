@@ -1,14 +1,5 @@
-#
-#  Be sure to run `pod spec lint WSubtractingCounter.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |s|
-
-
   s.name         = 'WSubtractingCounter'
   s.version      = '1.0.0'
   s.summary      = 'WSubtractingCounter library'
@@ -22,16 +13,10 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
   s.homepage     = 'https://github.com/tianya2416/WSubtractingCounter'
-
-  s.license      = { :type => 'None', :file => 'LICENSE' }
-
   s.author       = { 'tianya2416' => "1203123826@qq.com" }
-
-
-  s.source       = { :git => 'https://github.com/tianya2416/WSubtractingCounter.git', :tag => s.version}
+  s.license      = { :type => 'None', :file => 'LICENSE' }
+  s.source       = { :git => 'https://github.com/tianya2416/WSubtractingCounter.git', :tag => s.version }
   s.platform     = :ios, '6.0'
- s.source_files  = '*.*'
-#s.source_files  = 'WSubtractingCounter/*.{h,m}'
+  s.source_files = 'WSubtractingCounter/*.{h,m}'
   s.requires_arc = true
-
 end
