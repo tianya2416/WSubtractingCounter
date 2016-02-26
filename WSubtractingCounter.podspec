@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/tianya2416/WSubtractingCounter.git', :tag => s.version }
   s.platform     = :ios, '5.0'
-  s.source_files  = 'WSubtractingCounterDemo/WSubtractingCounterDemo/WSubtractingCounter/*.{h,m}’  
+  s.source_files  = 'WSubtractingCounter/WSubtractingCounterDemo/WSubtractingCounterDemo/*.{h,m}'  
   s.requires_arc = true
 
 end
