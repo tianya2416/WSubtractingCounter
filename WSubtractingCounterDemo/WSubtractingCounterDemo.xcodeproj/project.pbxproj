@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A46E3651C7FF2F800404342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A46E3641C7FF2F800404342 /* Main.storyboard */; };
+		6A46E3701C7FF39700404342 /* WSubtractingCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46E36E1C7FF39700404342 /* WSubtractingCounter.m */; };
+		6A46E3711C7FF39700404342 /* WSubtractingCounter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6A46E36F1C7FF39700404342 /* WSubtractingCounter.podspec */; };
 		6A952E5E1C7F3A0600E1C78B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A952E5D1C7F3A0600E1C78B /* main.m */; };
 		6A952E611C7F3A0600E1C78B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A952E601C7F3A0600E1C78B /* AppDelegate.m */; };
 		6A952E691C7F3A0600E1C78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A952E681C7F3A0600E1C78B /* Assets.xcassets */; };
 		6A952E6C1C7F3A0600E1C78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A952E6A1C7F3A0600E1C78B /* LaunchScreen.storyboard */; };
-		6A952E7E1C7F3A4F00E1C78B /* WSubtractingCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A952E7D1C7F3A4F00E1C78B /* WSubtractingCounter.m */; };
 		6A952E811C7F3A9500E1C78B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A952E801C7F3A9500E1C78B /* ViewController.m */; };
-		6A952E841C7F3A9D00E1C78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A952E831C7F3A9D00E1C78B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A46E3641C7FF2F800404342 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6A46E36D1C7FF39700404342 /* WSubtractingCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSubtractingCounter.h; sourceTree = "<group>"; };
+		6A46E36E1C7FF39700404342 /* WSubtractingCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSubtractingCounter.m; sourceTree = "<group>"; };
+		6A46E36F1C7FF39700404342 /* WSubtractingCounter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WSubtractingCounter.podspec; sourceTree = "<group>"; };
 		6A952E591C7F3A0600E1C78B /* WSubtractingCounterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSubtractingCounterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A952E5D1C7F3A0600E1C78B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A952E5F1C7F3A0600E1C78B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,11 +29,8 @@
 		6A952E681C7F3A0600E1C78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A952E6B1C7F3A0600E1C78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A952E6D1C7F3A0600E1C78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A952E7C1C7F3A4F00E1C78B /* WSubtractingCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSubtractingCounter.h; sourceTree = "<group>"; };
-		6A952E7D1C7F3A4F00E1C78B /* WSubtractingCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSubtractingCounter.m; sourceTree = "<group>"; };
 		6A952E7F1C7F3A9500E1C78B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6A952E801C7F3A9500E1C78B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6A952E821C7F3A9D00E1C78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A46E36C1C7FF39700404342 /* WSubtractingCounter */ = {
+			isa = PBXGroup;
+			children = (
+				6A46E36D1C7FF39700404342 /* WSubtractingCounter.h */,
+				6A46E36E1C7FF39700404342 /* WSubtractingCounter.m */,
+				6A46E36F1C7FF39700404342 /* WSubtractingCounter.podspec */,
+			);
+			path = WSubtractingCounter;
+			sourceTree = "<group>";
+		};
 		6A952E501C7F3A0600E1C78B = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +73,12 @@
 		6A952E5B1C7F3A0600E1C78B /* WSubtractingCounterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6A952E7B1C7F3A4F00E1C78B /* WSubtractingCounter */,
+				6A46E36C1C7FF39700404342 /* WSubtractingCounter */,
+				6A46E3641C7FF2F800404342 /* Main.storyboard */,
 				6A952E5F1C7F3A0600E1C78B /* AppDelegate.h */,
 				6A952E601C7F3A0600E1C78B /* AppDelegate.m */,
 				6A952E7F1C7F3A9500E1C78B /* ViewController.h */,
 				6A952E801C7F3A9500E1C78B /* ViewController.m */,
-				6A952E831C7F3A9D00E1C78B /* Main.storyboard */,
 				6A952E681C7F3A0600E1C78B /* Assets.xcassets */,
 				6A952E6A1C7F3A0600E1C78B /* LaunchScreen.storyboard */,
 				6A952E6D1C7F3A0600E1C78B /* Info.plist */,
@@ -81,15 +93,6 @@
 				6A952E5D1C7F3A0600E1C78B /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6A952E7B1C7F3A4F00E1C78B /* WSubtractingCounter */ = {
-			isa = PBXGroup;
-			children = (
-				6A952E7C1C7F3A4F00E1C78B /* WSubtractingCounter.h */,
-				6A952E7D1C7F3A4F00E1C78B /* WSubtractingCounter.m */,
-			);
-			path = WSubtractingCounter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A952E841C7F3A9D00E1C78B /* Main.storyboard in Resources */,
+				6A46E3711C7FF39700404342 /* WSubtractingCounter.podspec in Resources */,
 				6A952E6C1C7F3A0600E1C78B /* LaunchScreen.storyboard in Resources */,
 				6A952E691C7F3A0600E1C78B /* Assets.xcassets in Resources */,
+				6A46E3651C7FF2F800404342 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A952E7E1C7F3A4F00E1C78B /* WSubtractingCounter.m in Sources */,
 				6A952E611C7F3A0600E1C78B /* AppDelegate.m in Sources */,
+				6A46E3701C7FF39700404342 /* WSubtractingCounter.m in Sources */,
 				6A952E811C7F3A9500E1C78B /* ViewController.m in Sources */,
 				6A952E5E1C7F3A0600E1C78B /* main.m in Sources */,
 			);
@@ -178,15 +182,6 @@
 				6A952E6B1C7F3A0600E1C78B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		6A952E831C7F3A9D00E1C78B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A952E821C7F3A9D00E1C78B /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../../WSubtractingCounter/WSubtractingCounter;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -315,6 +310,7 @@
 				6A952E721C7F3A0600E1C78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
