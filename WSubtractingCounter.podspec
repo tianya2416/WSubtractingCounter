@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.name         = 'WSubtractingCounter'
   s.version      = '1.0.0'
-  s.summary      = 'WSubtractingCounter'
+  s.summary      = 'WSubtractingCounter library'
 
   s.description  = <<-DESC
                    A longer description of WSubtractingCounter in Markdown format.
@@ -28,9 +28,10 @@ Pod::Spec.new do |s|
   s.author       = { 'tianya2416' => "1203123826@qq.com" }
 
 
-  s.source       = { :git => 'https://github.com/tianya2416/WSubtractingCounter.git', :tag => s.version }
-  s.platform     = :ios, '5.0'
-  s.source_files  = 'WSubtractingCounter/WSubtractingCounterDemo/WSubtractingCounterDemo/*.{h,m}'  
+  s.source       = { :git => 'https://github.com/tianya2416/WSubtractingCounter.git', :tag => s.version}
+  s.platform     = :ios, '6.0'
+ s.source_files  = '*.*'
+#s.source_files  = 'WSubtractingCounter/*.{h,m}'
   s.requires_arc = true
 
 end
