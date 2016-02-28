@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,220 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="fch-8p-ZGk">
+                                <rect key="frame" x="-60" y="-14" width="121" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qZo-qC-My0"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="+"/>
+                                    <segment title="-"/>
+                                    <segment title="*"/>
+                                    <segment title="/"/>
+                                </segments>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="qZo-qC-My0"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="qZo-qC-My0"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="segementControll:" destination="BYZ-38-t0r" eventType="valueChanged" id="f9I-cn-6pk"/>
+                                </connections>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gLM-Gy-PXP">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="FNL-XX-h35"/>
+                                    <constraint firstAttribute="height" constant="30" id="cbw-7l-2Jb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FNL-XX-h35"/>
+                                        <exclude reference="cbw-7l-2Jb"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="FNL-XX-h35"/>
+                                        <include reference="cbw-7l-2Jb"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iOP-EP-hlg">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="8aU-lZ-DMn"/>
+                                    <constraint firstAttribute="width" constant="100" id="B7n-ov-ZfQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="ECk-P1-rnL"/>
+                                    <constraint firstAttribute="height" constant="30" id="xqi-GR-DqL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="8aU-lZ-DMn"/>
+                                        <exclude reference="B7n-ov-ZfQ"/>
+                                        <exclude reference="ECk-P1-rnL"/>
+                                        <exclude reference="xqi-GR-DqL"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="8aU-lZ-DMn"/>
+                                        <include reference="B7n-ov-ZfQ"/>
+                                        <exclude reference="ECk-P1-rnL"/>
+                                        <include reference="xqi-GR-DqL"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Olp-30-WW9">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="DP8-fY-DVx"/>
+                                    <constraint firstAttribute="height" constant="30" id="QnV-ws-gTi"/>
+                                </constraints>
+                                <state key="normal" title="计算"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="DP8-fY-DVx"/>
+                                        <exclude reference="QnV-ws-gTi"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="DP8-fY-DVx"/>
+                                        <include reference="QnV-ws-gTi"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonACtion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="czM-WW-NpH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geo-cY-Hhp">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XvT-PU-igX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="XvT-PU-igX"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="XvT-PU-igX"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Olp-30-WW9" secondAttribute="trailing" constant="20" id="4qR-TA-SfG"/>
+                            <constraint firstItem="iOP-EP-hlg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="6P3-uq-wXV"/>
+                            <constraint firstItem="fch-8p-ZGk" firstAttribute="leading" secondItem="Olp-30-WW9" secondAttribute="trailing" constant="-195" id="6wI-hC-c49"/>
+                            <constraint firstItem="fch-8p-ZGk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="9fh-cZ-kHA"/>
+                            <constraint firstItem="geo-cY-Hhp" firstAttribute="top" secondItem="iOP-EP-hlg" secondAttribute="bottom" constant="33" id="A3k-NW-MUK">
+                                <variation key="heightClass=regular-widthClass=compact" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="Olp-30-WW9" firstAttribute="top" secondItem="fch-8p-ZGk" secondAttribute="bottom" constant="74" id="GgY-VF-Rei">
+                                <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                            </constraint>
+                            <constraint firstItem="geo-cY-Hhp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="PdX-c3-gno"/>
+                            <constraint firstItem="gLM-Gy-PXP" firstAttribute="top" secondItem="fch-8p-ZGk" secondAttribute="bottom" constant="38" id="Q4L-ey-Fqu">
+                                <variation key="heightClass=regular-widthClass=compact" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="iOP-EP-hlg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="UKm-d9-BSr">
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="fch-8p-ZGk" secondAttribute="trailing" constant="20" id="YAS-lJ-MEI"/>
+                            <constraint firstItem="gLM-Gy-PXP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="evM-oi-YM3"/>
+                            <constraint firstAttribute="trailing" secondItem="geo-cY-Hhp" secondAttribute="trailing" constant="280" id="k52-qO-9Om">
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="iOP-EP-hlg" firstAttribute="top" secondItem="gLM-Gy-PXP" secondAttribute="bottom" constant="38" id="kPB-v3-vbe">
+                                <variation key="heightClass=regular-widthClass=compact" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="fch-8p-ZGk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="pAc-Ns-nTT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="fch-8p-ZGk"/>
+                                <exclude reference="gLM-Gy-PXP"/>
+                                <exclude reference="iOP-EP-hlg"/>
+                                <exclude reference="Olp-30-WW9"/>
+                                <exclude reference="geo-cY-Hhp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="6wI-hC-c49"/>
+                                <exclude reference="9fh-cZ-kHA"/>
+                                <exclude reference="YAS-lJ-MEI"/>
+                                <exclude reference="pAc-Ns-nTT"/>
+                                <exclude reference="Q4L-ey-Fqu"/>
+                                <exclude reference="evM-oi-YM3"/>
+                                <exclude reference="6P3-uq-wXV"/>
+                                <exclude reference="UKm-d9-BSr"/>
+                                <exclude reference="kPB-v3-vbe"/>
+                                <exclude reference="A3k-NW-MUK"/>
+                                <exclude reference="PdX-c3-gno"/>
+                                <exclude reference="k52-qO-9Om"/>
+                                <exclude reference="4qR-TA-SfG"/>
+                                <exclude reference="GgY-VF-Rei"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="fch-8p-ZGk"/>
+                                <include reference="gLM-Gy-PXP"/>
+                                <include reference="iOP-EP-hlg"/>
+                                <include reference="Olp-30-WW9"/>
+                                <include reference="geo-cY-Hhp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6wI-hC-c49"/>
+                                <include reference="9fh-cZ-kHA"/>
+                                <include reference="YAS-lJ-MEI"/>
+                                <include reference="pAc-Ns-nTT"/>
+                                <include reference="Q4L-ey-Fqu"/>
+                                <include reference="evM-oi-YM3"/>
+                                <include reference="6P3-uq-wXV"/>
+                                <exclude reference="UKm-d9-BSr"/>
+                                <include reference="kPB-v3-vbe"/>
+                                <include reference="A3k-NW-MUK"/>
+                                <include reference="PdX-c3-gno"/>
+                                <include reference="k52-qO-9Om"/>
+                                <include reference="4qR-TA-SfG"/>
+                                <include reference="GgY-VF-Rei"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="Olp-30-WW9" id="F0s-CM-Gy2"/>
+                        <outlet property="label" destination="geo-cY-Hhp" id="G4A-IV-hf2"/>
+                        <outlet property="segement" destination="fch-8p-ZGk" id="fWS-Ka-5k6"/>
+                        <outlet property="textFieldA" destination="iOP-EP-hlg" id="DqC-L0-cLA"/>
+                        <outlet property="textFieldB" destination="gLM-Gy-PXP" id="EXZ-NK-8CJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="291" y="288.75"/>
         </scene>
     </scenes>
 </document>

@@ -32,7 +32,7 @@
 }
 - (void)counter
 {
-    self.label.text = [WSubtractingCounter WSubtractingCounter:self.textFieldA.text withB:self.textFieldB.text withType:self.type];
+    self.label.text = [WSubtractingCounter WSubtractingCounter:self.textFieldB.text withB:self.textFieldA.text withType:self.type];
     [self.textFieldA resignFirstResponder];
     [self.textFieldB resignFirstResponder];
 }
