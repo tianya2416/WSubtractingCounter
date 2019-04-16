@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0CF2962265D1110048E28A /* WSubtractingCounter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CF2952265D1110048E28A /* WSubtractingCounter.podspec */; };
 		6A46E3651C7FF2F800404342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A46E3641C7FF2F800404342 /* Main.storyboard */; };
 		6A46E3A21C80490900404342 /* WSubtractingCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A46E3A11C80490900404342 /* WSubtractingCounter.m */; };
 		6A952E5E1C7F3A0600E1C78B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A952E5D1C7F3A0600E1C78B /* main.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0CF2952265D1110048E28A /* WSubtractingCounter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WSubtractingCounter.podspec; sourceTree = SOURCE_ROOT; };
 		6A46E3641C7FF2F800404342 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6A46E3A01C80490900404342 /* WSubtractingCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSubtractingCounter.h; sourceTree = "<group>"; };
 		6A46E3A11C80490900404342 /* WSubtractingCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSubtractingCounter.m; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 		6A46E39F1C80490900404342 /* WSubtractingCounter */ = {
 			isa = PBXGroup;
 			children = (
+				0F0CF2952265D1110048E28A /* WSubtractingCounter.podspec */,
 				6A46E3A01C80490900404342 /* WSubtractingCounter.h */,
 				6A46E3A11C80490900404342 /* WSubtractingCounter.m */,
 			);
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0CF2962265D1110048E28A /* WSubtractingCounter.podspec in Resources */,
 				6A952E6C1C7F3A0600E1C78B /* LaunchScreen.storyboard in Resources */,
 				6A952E691C7F3A0600E1C78B /* Assets.xcassets in Resources */,
 				6A46E3651C7FF2F800404342 /* Main.storyboard in Resources */,
