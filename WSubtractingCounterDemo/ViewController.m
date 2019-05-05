@@ -8,13 +8,14 @@
 
 #import "ViewController.h"
 #import "WSubtractingCounter.h"
+
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *textFieldA;
 @property (weak, nonatomic) IBOutlet UITextField *textFieldB;
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segement;
 @property (weak, nonatomic) IBOutlet UIButton *button;
-@property (assign, nonatomic) WSubtractingCounterType type;
+@property (assign, nonatomic) SubtractState type;
 @end
 
 @implementation ViewController
@@ -25,14 +26,14 @@
 }
 - (IBAction)segementControll:(UISegmentedControl *)sender {
     self.type = sender.selectedSegmentIndex;
-     [self counter];
 }
 - (IBAction)buttonACtion:(UIButton *)sender {
     [self counter];
 }
 - (void)counter
 {
-    self.label.text = [WSubtractingCounter WSubtractingCounter:self.textFieldB.text withB:self.textFieldA.text withType:self.type];
+    self.label.text = [WSubtractingCounter getCount:self.textFieldB.text valueB:self.textFieldA.text states:self.type];
+    [WSubtractingCounter getCount:@"0" valueB:@"5" states:NS_ENUM_Type_Sub];
     [self.textFieldA resignFirstResponder];
     [self.textFieldB resignFirstResponder];
 }

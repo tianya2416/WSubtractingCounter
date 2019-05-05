@@ -7,16 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
-typedef NS_ENUM (NSInteger, WSubtractingCounterType) {
-    NS_ENUM_Type_Addition = 0,      //A+B       15+3 = 18
-    NS_ENUM_Type_Subtraction,       //A-B       15-3 = 12
-    NS_ENUM_Type_Multiplication,    //A*B		15*3 = 45
-    NS_ENUM_Type_Division,          //A/B       15/3 = 5
-    NS_ENUM_Type_Power,             //A的B次方   15*15*15=
-    NS_ENUM_Type_10Power            //A*10的B次方 A * 10*10*10
+typedef NS_ENUM (NSInteger, SubtractState) {
+    NS_ENUM_Type_Add = 0,       //A+B       A+B = 18
+    NS_ENUM_Type_Sub,           //A-B       A-B = 12
+    NS_ENUM_Type_Mul,           //A*B		A*B = 45
+    NS_ENUM_Type_Div,           //A/B       A/B = 5
+    NS_ENUM_Type_Pow,           //A的3次方   A*A*A=
+    NS_ENUM_Type_10Power        //A*10的3次方 A * 10*10*10
 };
 @interface WSubtractingCounter : NSObject
-+ (NSString *)WSubtractingCounter:(NSString *)stringA
-                            withB:(NSString *)stringB
-                         withType:(WSubtractingCounterType)type;
+
+/**
+ @breif 使用字符串计算值
+ @param valueA
+ @param valueB
+ @param state
+ @return 
+ */
++ (NSString *)getCount:(NSString *)valueA
+                valueB:(NSString *)valueB
+                states:(SubtractState)state;
 @end
